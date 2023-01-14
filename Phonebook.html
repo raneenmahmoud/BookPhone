@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <title>Phone Book App</title>
     <style>
     .button {
@@ -23,7 +25,34 @@
     </style>
     </head>
     <body>
-        <div class="center">
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Phone <span class="sr-only">Book APP</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+
+        <div class=" container my-5">
+        <div class="center bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white" 
+        style="background-image: url('https://mdbootstrap.com/img/new/slides/003.jpg'); height: 75vh;">
         <h1><p>Phone Book App</p></h1>
         <h2><p>Team 6</p></h2>
         <button class="button " onclick="add()">ADD</button>
@@ -31,6 +60,7 @@
         <button class="button "onclick="exit() ">exit</button>
        
         <script src="Phonebook.js"></script>
+    </div>
     </div>
     </body>
 </html>
