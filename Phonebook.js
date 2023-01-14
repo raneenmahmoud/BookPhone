@@ -13,6 +13,13 @@ let contacts=[];
         if(contacts[i].name==searchkey || contacts[i].phone==searchkey){
         alert(JSON.stringify(contacts[i]));}
     }
+    function view(){
+         for(let i=0;i<contacts.length;i++){
+           let name=contacts[i].name;
+           let phone=contacts[i].phone;
+           document.write(`<p>name:${name} ,phone: ${phone} </p>`)
+        }
+    }
         
        function exit(){
            if(confirm("do you want to close this window ")){
