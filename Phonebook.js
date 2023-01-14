@@ -14,7 +14,12 @@ let contacts=[];
         alert(JSON.stringify(contacts[i]));}
     }
         
-                
+       function exit(){
+           if(confirm("do you want to close this window ")){
+            close();
+           }
+
+       }         
 
 
         
