@@ -18,7 +18,7 @@ let contacts=[];
          for(let i=0;i<contacts.length;i++){
            let name=contacts[i].name;
            let phone=contacts[i].phone;
-           document.write(`name:${name} ,phone: ${phone} `)
+           alert(`name:${name} ,phone: ${phone} `)
         }
     }
         
