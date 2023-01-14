@@ -1,6 +1,7 @@
 let contacts=[];
+let contact = {}
     function add(){
-        let contact = {}
+        
         contact.name =prompt("Enter the name");
         contact.phone =prompt("Enter the phone");
         contacts.push(contact);
